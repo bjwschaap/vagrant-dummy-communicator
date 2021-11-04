@@ -14,6 +14,7 @@ module VagrantPlugins
       end
 
       def wait_for_ready(duration)
+        sleep 2
         return true
       end
     end
