@@ -2,9 +2,6 @@
 
 *vagrant-dummy-communicator* is a [Vagrant](http://vagrantup.com) plugin which disables communication with the guest VM, and allows Vagrant to continue without waiting for SSH/WinRM to be ready.
 
-[![Code Climate](https://codeclimate.com/github/dotless-de/vagrant-dummy-communicator.svg)](https://codeclimate.com/github/dotless-de/vagrant-dummy-communicator)
-[![Gem Version](https://badge.fury.io/rb/vagrant-dummy-communicator.svg)](https://badge.fury.io/rb/vagrant-dummy-communicator)
-
 ## Installation
 
 Requires vagrant 1.3 or later
