@@ -20,7 +20,7 @@ it in your `Vagrantfile`:
 ```ruby
 Vagrant.configure("2") do |config|
   # Use an 'empty' box
-  config.vm.box = "q2p/empty"
+  config.vm.box = "pace/empty"
 
   # Disable shared folders
   config.vm.synced_folder ".", "/vagrant", disabled: true
@@ -31,3 +31,6 @@ end
 ```
 
 Now you can do `vagrant up --no-provision` to bring up your VM.
+
+See: [vagrant-empty-box](https://github.com/bjwschaap/vagrant-empty-box) for a more
+extensive example.
